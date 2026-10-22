@@ -11,6 +11,8 @@
     "check:pages": "node scripts/check-page-types.cjs",
     "check:backend": "node scripts/check-backend.cjs",
     "check:browser": "node scripts/check-browser.cjs",
+    "check:responsive": "node scripts/audit-responsive.cjs",
+    "check:mobile-menu": "node scripts/check-mobile-menu.cjs",
     "check:motion": "node scripts/check-motion.cjs",
     "check:sliders": "node scripts/check-sliders.cjs",
     "check:trade": "node scripts/check-trade.cjs",

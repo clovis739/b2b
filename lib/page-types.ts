@@ -70,7 +70,7 @@ export const pageTypes = {
     ],
   },
   "suppliers-promo": {
-    title: "Sell on Globy",
+    title: "Sell on Vantora",
     group: "Sourcing",
     features: ["Supplier benefits", "Listing workflow", "Supplier signup"],
   },

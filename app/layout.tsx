@@ -16,7 +16,9 @@ import "./status.css";
 import "./landed-cost.css";
 import "./dropdowns.css";
 import "./load-calculator.css";
+import "./responsive.css";
 import SiteShell from "./site-shell";
+import { brand } from "@/lib/brand";
 
 const manrope = localFont({
   src: "./fonts/Manrope-Variable.ttf",
@@ -27,18 +29,17 @@ const manrope = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Globy | Global Sourcing & Logistics",
-  description: "Explore a connected global marketplace, discover suppliers, and plan your next shipment.",
+  title: `${brand.name} | Global Sourcing & Logistics`,
+  description:
+    "Explore a connected global marketplace, discover suppliers, and plan your next shipment.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html
-      lang="en"
-      className={`${manrope.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col"><SiteShell>{children}</SiteShell></body>
+    <html lang="en" className={`${manrope.variable} h-full antialiased`}>
+      <body className="min-h-full flex flex-col">
+        <SiteShell>{children}</SiteShell>
+      </body>
     </html>
   );
 }
-

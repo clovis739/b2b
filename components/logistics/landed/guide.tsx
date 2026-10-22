@@ -155,7 +155,7 @@ export default function LandedGuide() {
             aria-label="Start your landed cost calculation"
           >
             <Image
-              src="/images/landed-calculator-tutorial.jpg"
+              src="/images/vantora-landed-cost.svg"
               alt="Landed cost calculator preview"
               fill
               sizes="(max-width:750px) 100vw, 50vw"

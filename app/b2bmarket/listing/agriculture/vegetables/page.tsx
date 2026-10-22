@@ -10,7 +10,7 @@ const entry: PageEntry = {
   "category": "vegetables"
 };
 
-export const metadata = { title: "Vegetables Wholesale | Globy Marketplace" };
+export const metadata = { title: "Vegetables Wholesale | Vantora Marketplace" };
 
 export default function Page() {
   return (

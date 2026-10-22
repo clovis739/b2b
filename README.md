@@ -1,4 +1,4 @@
-# Globy-inspired B2B platform
+# Vantora ? Global trade. Forward.
 
 A local Next.js 16 / React 19 implementation with 40 component-based public page types across 547 connected URL routes, 33 sector entries and 90 illustrative product records.
 
@@ -151,3 +151,9 @@ Landed-cost reference completion: all 11 main sections now follow the public ref
 Load calculator rebuild: `/load-calculator` and its three existing variants use a three-stage Products / Container & Trucks / Stuffing result planner. Up to 12 cargo types support bounding dimensions, whole quantities, item weight, horizontal rotation and upright stacking. `lib/load-planner.ts` uses conservative separate lengthwise sections, allocates up to 1,000 loads and checks internal dimensions and payload. Equipment presets include standard/high-cube/reefer containers and trucks; custom dimensions are available. Results provide per-load counts, weight/volume metrics, a capped SVG isometric/top preview and CSV export. This is not a certified stuffing or axle-load planner. The reference workflow, benefits, audiences, features, related calculators and CTA sections are implemented with original explanatory copy. The blocked original banner is replaced by the existing local container image. Validation/provenance live in `reference/load-*.json`; run `node scripts/check-load-browser.cjs` with optional `SITE_CHECK_URL` for the UI workflow.
 
 Load how-it-works hover motion: `components/logistics/load/how-motion.tsx` uses scoped GSAP timelines for the four SVG illustrations (dimension labels/cargo, equipment cards/truck, chart segments and container/view label). Pointer exit reverses from the current progress; keyboard focus also plays the effect, and reduced-motion preference disables it. Original live motion could not be verified because the source continued to return 403, so these are recreated effects rather than a claimed exact sequence. Interaction checks are recorded in `reference/load-how-hover-validation.json`.
+
+
+Responsive audit: the shared header switches to the mobile menu at 1050px. Menu controls have 44px touch targets, nested Escape focus handling, scrollable categories, and reset on breakpoint changes and browser history navigation. Mobile fields use 16px text, filters wrap, and cookie/help panels stay within short viewports. Against a local server, set `SITE_CHECK_URL` and run `npm.cmd run check:responsive` (43 representative layouts, 11 widths from 320 to 1440px) and `npm.cmd run check:mobile-menu` (touch, portrait/landscape, focus, navigation, form text and cookie controls). Results are written to `reference/responsive-audit.json` and `reference/mobile-menu-validation.json`. These are headless Chrome emulation checks, not physical-device certification.
+
+
+Brand: Vantora. Shared brand settings live in `lib/brand.ts`. Existing browser-storage keys and legacy author URLs are retained so saved drafts, consent and bookmarks continue to work. Globy references in source credits and catalog provenance identify the original reference, not the Vantora brand.

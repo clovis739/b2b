@@ -111,7 +111,7 @@ export default function AboutPage({ entry }: { entry: PageEntry }) {
       <section className="about-created about-section">
         <span className="about-eyebrow">A more connected approach</span>
         <h2>
-          Globy was created
+          Vantora was created
           <br />
           <span>to change this.</span>
         </h2>
@@ -121,13 +121,13 @@ export default function AboutPage({ entry }: { entry: PageEntry }) {
         </p>
         <div
           className="about-statistics"
-          aria-label="Globy reference platform statistics"
+          aria-label="Vantora platform features"
         >
           {[
             ["10", "Connected trade steps"],
-            ["30+", "Product sectors"],
-            ["190+", "Countries"],
-            ["20+", "Years of combined experience"],
+            ["33", "Product sectors"],
+            ["5", "Planning & tracking tools"],
+            ["1", "Connected workspace"],
           ].map(([number, label]) => (
             <div key={label}>
               <strong>{number}</strong>
@@ -135,7 +135,7 @@ export default function AboutPage({ entry }: { entry: PageEntry }) {
             </div>
           ))}
         </div>
-        <small>Platform figures presented on Globy’s About Us page.</small>
+        <small>Platform figures presented on Vantora’s About Us page.</small>
       </section>
 
       <section className="about-experience about-section">
@@ -238,7 +238,7 @@ export default function AboutPage({ entry }: { entry: PageEntry }) {
           Explore the marketplace <Icon name="arrow" size={18} />
         </Link>
         <strong className="about-signoff">
-          Globy — Connecting Global Trade &amp; Logistics
+          Vantora — Connecting Global Trade &amp; Logistics
         </strong>
       </section>
     </div>

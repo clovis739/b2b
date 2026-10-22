@@ -34,7 +34,7 @@ export function Intro({
 }) {
   return (
     <div className="page-intro">
-      <span className="page-kicker">CONNECTED OPPORTUNITIES · GLOBY</span>
+      <span className="page-kicker">CONNECTED OPPORTUNITIES · VANTORA</span>
       <h1>{entry.title}</h1>
       <p>
         {description ||

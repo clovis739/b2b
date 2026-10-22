@@ -16,7 +16,7 @@ export default function PolicyPage({ entry }: { entry: PageEntry }) {
       />
       <article className="content-panel reading-panel">
         <p className="notice form-note">
-          This is original demo information, not Globy’s legal policy. It must
+          This is original demo information, not Vantora’s legal policy. It must
           be reviewed and replaced with the operator’s policies before
           production use.
         </p>
@@ -49,7 +49,7 @@ export default function PolicyPage({ entry }: { entry: PageEntry }) {
             : [
                 [
                   "Development preview",
-                  "This application is an independent, Globy-inspired local build. Listings, supplier badges, prices and event information are illustrative.",
+                  "This application is an independent local marketplace build. Listings, supplier badges, prices and event information are illustrative.",
                 ],
                 [
                   "No live commercial service",

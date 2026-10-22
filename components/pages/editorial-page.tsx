@@ -21,7 +21,7 @@ export default function EditorialPage({ entry }: { entry: PageEntry }) {
       <h1>{article.title}</h1>
       <p className="article-lead">{article.summary}</p>
       <div className="article-byline">
-        <Link href="/blog/author/globy-editorial">{article.author}</Link>
+        <Link href="/blog/author/vantora-editorial">{article.author}</Link>
         <span>Original demonstration editorial</span>
       </div>
       <Photo name={article.image} alt={article.title} />
@@ -57,9 +57,9 @@ export default function EditorialPage({ entry }: { entry: PageEntry }) {
         </Link>
       </div>
       {entry.kind === "authors" ? (
-        <Link className="author-card" href="/blog/author/globy-editorial">
-          <span className="company-avatar">G</span>
-          <h2>Globy editorial</h2>
+        <Link className="author-card" href="/blog/author/vantora-editorial">
+          <span className="company-avatar">V</span>
+          <h2>Vantora editorial</h2>
           <p>
             Original trade guides and sourcing ideas for this demonstration
             site.
@@ -70,7 +70,7 @@ export default function EditorialPage({ entry }: { entry: PageEntry }) {
         <>
           {entry.kind === "author" && (
             <div className="content-panel">
-              <h2>Globy editorial</h2>
+              <h2>Vantora editorial</h2>
               <p>
                 Practical, original content written for this independent local
                 marketplace build.

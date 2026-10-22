@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "width": 320,
+      "height": 740,
+      "menu": true,
+      "touchTarget": true,
+      "scrollableCategories": true,
+      "escapeFocus": true,
+      "localNavigation": true,
+      "resizeReset": true
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "menu": true,
+      "touchTarget": true,
+      "scrollableCategories": true,
+      "escapeFocus": true,
+      "localNavigation": true,
+      "resizeReset": true
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "menu": true,
+      "touchTarget": true,
+      "scrollableCategories": true,
+      "escapeFocus": true,
+      "localNavigation": true,
+      "resizeReset": true
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "menu": true,
+      "touchTarget": true,
+      "scrollableCategories": true,
+      "escapeFocus": true,
+      "localNavigation": true,
+      "resizeReset": true
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "menu": true,
+      "touchTarget": true,
+      "scrollableCategories": true,
+      "escapeFocus": true,
+      "localNavigation": true,
+      "resizeReset": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "menu": true,
+      "touchTarget": true,
+      "scrollableCategories": true,
+      "escapeFocus": true,
+      "localNavigation": true,
+      "resizeReset": true
+    }
+  ],
+  "inputZoomPrevention": true,
+  "landscapeCookieControls": true
+}

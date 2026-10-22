@@ -1,3 +1,4 @@
+import { brand } from "../lib/brand";
 import { createHash, randomBytes } from "node:crypto";
 import type { NextRequest } from "next/server";
 import {
@@ -44,9 +45,9 @@ export async function sendAccountToken(
     user.id,
     user.email,
     purpose === "verify"
-      ? "Verify your marketplace email"
-      : "Reset your marketplace password",
-    `${purpose === "verify" ? "Verify your email address" : "Reset your password"} using this one-time link:\n\n${link}\n\nThis link expires in ${purpose === "reset" ? "30 minutes" : "24 hours"}. If you did not request this, ignore this message.`,
+      ? `Verify your ${brand.name} email`
+      : `Reset your ${brand.name} password`,
+    `${purpose === "verify" ? "Verify your email address" : "Reset your password"} for ${brand.name} using this one-time link:\n\n${link}\n\nThis link expires in ${purpose === "reset" ? "30 minutes" : "24 hours"}. If you did not request this, ignore this message.`,
   );
 }
 export async function accountAction(

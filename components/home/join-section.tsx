@@ -5,7 +5,7 @@ export default function JoinSection() {
     <>
       <section className="clone-section clone-join">
         <div>
-          <h2>Join Globy to grow your business today!</h2>
+          <h2>Join Vantora to grow your business today!</h2>
           <p>
             Discover products, make connections and plan your logistics in one
             place.
@@ -33,9 +33,9 @@ export default function JoinSection() {
           direct business connections, and for useful industry insights.
         </p>
         <p>
-          Globy is a B2B marketplace platform intended to help wholesale traders
+          Vantora is a B2B marketplace platform intended to help wholesale traders
           find new buyers or suppliers on the global market. We aim to make
-          international trade simpler and more efficient. Globy is an online B2B
+          international trade simpler and more efficient. Vantora is an online B2B
           marketplace platform accessible to everyone. We cover all the
           countries and industries.
         </p>

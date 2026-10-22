@@ -59,7 +59,7 @@ export default function MarketingPage({ entry }: { entry: PageEntry }) {
     },
     about: {
       headline: "A world of trade.\nCloser together.",
-      desc: "We believe better connections create better opportunities. This Globy-inspired platform brings sourcing, suppliers and logistics into a shared experience.",
+      desc: "We believe better connections create better opportunities. Vantora brings sourcing, suppliers and logistics into a shared experience.",
       image: "office",
       cta: "Explore the marketplace",
       href: "/b2bmarket",

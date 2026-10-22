@@ -11,6 +11,7 @@ export default function SiteHeader() {
   const [mobile, setMobile] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const ref = useRef<HTMLElement>(null);
+  const toggleRef = useRef<HTMLButtonElement>(null);
   const close = () => {
     setMobile(false);
     ref.current
@@ -30,19 +31,38 @@ export default function SiteHeader() {
     document.addEventListener("pointerdown", handle);
     return () => document.removeEventListener("pointerdown", handle);
   }, []);
+  useEffect(() => {
+    const breakpoint = window.matchMedia("(max-width: 1050px)");
+    const reset = () => close();
+    breakpoint.addEventListener("change", reset);
+    window.addEventListener("popstate", reset);
+    return () => {
+      breakpoint.removeEventListener("change", reset);
+      window.removeEventListener("popstate", reset);
+    };
+  }, []);
   return (
     <header
       ref={ref}
       className="clone-header"
       onKeyDown={(e) => {
-        if (e.key === "Escape") close();
+        if (e.key === "Escape") {
+          const disclosure = (e.target as HTMLElement).closest("details[open]");
+          if (disclosure) {
+            disclosure.removeAttribute("open");
+            disclosure.querySelector("summary")?.focus();
+          } else {
+            close();
+            if (mobile) toggleRef.current?.focus();
+          }
+        }
       }}
     >
       <div className="clone-header-inner">
         <Link
           href="/"
           className="clone-brand"
-          aria-label="Globy home"
+          aria-label="Vantora home"
           onClick={close}
         >
           <Logo />
@@ -132,15 +152,21 @@ export default function SiteHeader() {
               English edition <Icon name="check" size={15} />
             </div>
           </details>
-          <Link href={account ? "/workspace" : "/auth/sign-in"} className="clone-signin" onClick={close}>
+          <Link
+            href={account ? "/workspace" : "/auth/sign-in"}
+            className="clone-signin"
+            onClick={close}
+          >
             {account ? "Workspace" : "Sign In"}
           </Link>
           <button
+            ref={toggleRef}
+            type="button"
             className="clone-mobile-toggle"
             aria-label={mobile ? "Close menu" : "Open menu"}
             aria-expanded={mobile}
             aria-controls="clone-navigation"
-            onClick={() => setMobile(!mobile)}
+            onClick={() => (mobile ? close() : setMobile(true))}
           >
             <Icon name={mobile ? "close" : "menu"} size={23} />
           </button>

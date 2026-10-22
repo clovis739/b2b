@@ -38,7 +38,7 @@ export function downloadDraft(draft: WorkspaceDraft) {
   );
   const link = document.createElement("a");
   link.href = url;
-  link.download = `globy-${draft.type}-${draft.id}.txt`;
+  link.download = `vantora-${draft.type}-${draft.id}.txt`;
   link.click();
   setTimeout(() => URL.revokeObjectURL(url), 1000);
 }

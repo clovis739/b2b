@@ -44,7 +44,7 @@ body {
 .container {
   width: min(1440px, calc(100% - 48px));
 }
-.globy-wordmark {
+.vantora-wordmark {
   display: inline-flex;
   align-items: center;
   font-size: 31px;
@@ -52,25 +52,6 @@ body {
   letter-spacing: -1.8px;
   line-height: 1;
   color: #005bff;
-}
-.globy-wordmark > span {
-  position: relative;
-  letter-spacing: -2px;
-}
-.globy-wordmark > span:before,
-.globy-wordmark > span:after {
-  position: absolute;
-  content: "";
-  width: 11px;
-  height: 2px;
-  background: currentColor;
-  left: -4px;
-  top: 14px;
-}
-.globy-wordmark > span:after {
-  top: 19px;
-  width: 9px;
-  left: -3px;
 }
 .clone-header {
   position: sticky;
@@ -1439,7 +1420,7 @@ body {
   padding: 50px max(24px, calc((100vw - 1432px) / 2)) 0;
   margin-top: auto;
 }
-.clone-footer .globy-wordmark {
+.clone-footer .vantora-wordmark {
   color: #fff;
   font-size: 40px;
 }
@@ -1831,7 +1812,7 @@ body {
   .clone-join {
     padding: 48px;
   }
-  .clone-header .globy-wordmark {
+  .clone-header .vantora-wordmark {
     font-size: 30px;
   }
 }
@@ -2131,7 +2112,7 @@ body {
     display: none;
   }
 }
-@media (max-width: 750px) {
+@media (max-width: 1050px) {
   .clone-header-inner {
     width: calc(100% - 32px);
     height: 72px;
@@ -2144,6 +2125,8 @@ body {
     align-items: center;
     justify-content: center;
     padding: 8px;
+    min-width: 44px;
+    min-height: 44px;
   }
   .clone-navigation {
     display: none;
@@ -2154,7 +2137,9 @@ body {
     background: #fff;
     border-bottom: 1px solid #e5e9f0;
     padding: 10px 20px 20px;
-    max-height: 80dvh;
+    max-height: calc(100dvh - 72px);
+    overscroll-behavior: contain;
+    padding-bottom: max(20px, env(safe-area-inset-bottom));
     overflow: auto;
   }
   .clone-navigation.is-open {
@@ -2229,6 +2214,8 @@ body {
   .mega-eyebrow {
     display: none;
   }
+}
+@media (max-width: 750px) {
   .clone-home {
     width: calc(100% - 32px);
   }
@@ -2614,7 +2601,7 @@ body {
     line-height: 1.8;
     max-width: 500px;
   }
-  .clone-footer .globy-wordmark {
+  .clone-footer .vantora-wordmark {
     font-size: 37px;
   }
   .clone-social {
@@ -2708,7 +2695,7 @@ body {
     height: 70px;
     gap: 15px;
   }
-  .clone-header .globy-wordmark {
+  .clone-header .vantora-wordmark {
     font-size: 29px;
   }
   .clone-language summary {

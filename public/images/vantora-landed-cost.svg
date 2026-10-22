@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" fill="none">
+<rect width="1200" height="675" rx="28" fill="#edf8f4"/>
+<circle cx="1010" cy="610" r="310" fill="#d5eee5"/>
+<circle cx="1160" cy="60" r="220" stroke="#cce5dc" stroke-width="2"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="64" y="92" fill="#006b59" font-size="40" font-weight="700" letter-spacing="-1">Vantora</text>
+<text x="64" y="226" fill="#173d35" font-size="54" font-weight="700">Know your true</text>
+<text x="64" y="294" fill="#173d35" font-size="54" font-weight="700">landed cost.</text>
+<text x="64" y="350" fill="#49675f" font-size="23">From supplier quote to your doorstep.</text>
+<rect x="64" y="402" width="475" height="68" rx="14" fill="#00816c"/>
+<text x="89" y="445" fill="white" font-size="22" font-weight="700">Product + freight + duty + tax</text>
+<text x="64" y="535" fill="#49675f" font-size="20">Plan the shipment. Understand the margin.</text>
+<rect x="660" y="100" width="468" height="470" rx="22" fill="white" stroke="#cce5dc" stroke-width="2"/>
+<text x="696" y="152" fill="#173d35" font-size="25" font-weight="700">Your cost breakdown</text>
+<text x="696" y="188" fill="#647b74" font-size="17">Illustrative 100-piece order</text>
+<path d="M696 215H1092M696 412H1092" stroke="#deebe5" stroke-width="2"/>
+<g fill="#49675f" font-size="20">
+<text x="696" y="258">Product cost</text><text x="1092" y="258" text-anchor="end">$2,000</text>
+<text x="696" y="304">Freight &amp; insurance</text><text x="1092" y="304" text-anchor="end">$250</text>
+<text x="696" y="350">Duty &amp; tax</text><text x="1092" y="350" text-anchor="end">$150</text>
+<text x="696" y="396">Other costs</text><text x="1092" y="396" text-anchor="end">$100</text>
+</g>
+<text x="696" y="462" fill="#173d35" font-size="23" font-weight="700">Total landed cost</text><text x="1092" y="462" fill="#00816c" font-size="29" font-weight="700" text-anchor="end">$2,500</text>
+<rect x="696" y="492" width="396" height="44" rx="10" fill="#edf8f4"/>
+<text x="716" y="521" fill="#006b59" font-size="19" font-weight="700">$25.00 per piece</text>
+</g></svg>

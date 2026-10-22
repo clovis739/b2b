@@ -12,10 +12,10 @@ export default function GlobalError({
   return (
     <html lang="en">
       <body className="http-status-document">
-        <title>Something went wrong | Globy</title>
+        <title>Something went wrong | Vantora</title>
         <meta name="robots" content="noindex" />
         <Link className="http-status-brand" href="/">
-          Globy
+          Vantora
         </Link>
         <StatusPage code={500} retry={retry} standalone />
       </body>

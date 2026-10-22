@@ -75,7 +75,7 @@ export const navigation = [
     title: "Resources",
     links: [
       {
-        title: "About Globy",
+        title: "About Vantora",
         href: "/about-us",
         description: "Learn about the platform and its services.",
         icon: "globe",
@@ -129,7 +129,7 @@ export const footerGroups = [
   {
     title: "Company",
     links: [
-      { title: "About Globy", href: "/about-us" },
+      { title: "About Vantora", href: "/about-us" },
       { title: "Contact Us", href: "/contact-us" },
       { title: "Help Center", href: "/help-center" },
     ],

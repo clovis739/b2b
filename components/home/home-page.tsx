@@ -30,7 +30,7 @@ export default function HomePage({
             <span>
               <Icon name="box" size={24} />
             </span>
-            Sell on Globy <span><Icon name="external" size={16}/></span>
+            Sell on Vantora <span><Icon name="external" size={16}/></span>
           </Link>
         </div>
       </section>

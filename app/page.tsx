@@ -8,7 +8,7 @@ const entry: PageEntry = {
   "kind": "home"
 };
 
-export const metadata = { title: "Globy | Global Sourcing & Logistics" };
+export const metadata = { title: "Vantora | Global Sourcing & Logistics" };
 
 export default function Page() {
   return (

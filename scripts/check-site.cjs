@@ -75,6 +75,10 @@ async function checkHttp(){
       const expectedStatus = p.path === '/404' ? 404 : p.path === '/500' ? 500 : 200;
       assert.equal(response.status,expectedStatus,`HTTP status for ${p.path}`);
       const html=await response.text();
+      if (process.env.SITE_BRAND_NAME) {
+        const title = html.match(/<title>([^<]*)<\/title>/)?.[1] || '';
+        assert.ok(title.includes(process.env.SITE_BRAND_NAME), `Missing brand in title at ${p.path}`);
+      }
       assert.ok(html.includes('</main>'),`Missing main content at ${p.path}`);
       const contentMarker = p.kind === 'status' && p.key
         ? `data-status-code="${p.key}"`
@@ -89,7 +93,7 @@ async function checkHttp(){
         }
       }
       for(const match of html.matchAll(/href="(\/[^"?#]*)[^\"]*"/g)){
-        const href=match[1];if(!href.startsWith('/_next')&&!href.startsWith('//')&&!['/favicon.ico','/sitemap.xml','/robots.txt'].includes(href)&&!routeMap.has(href))missingLinks.add(`${p.path} -> ${href}`);
+        const href=match[1];if(!href.startsWith('/_next')&&!href.startsWith('//')&&!['/favicon.ico','/icon.svg','/sitemap.xml','/robots.txt'].includes(href)&&!routeMap.has(href))missingLinks.add(`${p.path} -> ${href}`);
       }
     }));
   }

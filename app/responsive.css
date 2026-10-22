@@ -1,0 +1,62 @@
+/* Shared touch layouts: page-specific grids remain in their own stylesheets. */
+@media (max-width: 1050px) {
+  .clone-navigation .clone-mega {
+    max-height: none;
+    overflow: visible;
+  }
+  .clone-navigation .mega-link-grid > a > span,
+  .clone-navigation .mega-sector-grid > a > span {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+  .clone-navigation .mega-sector-grid > a,
+  .clone-navigation .mega-link-grid > a,
+  .clone-header .clone-signin,
+  .clone-header .clone-language > summary,
+  .clone-navigation .clone-help {
+    min-height: 44px;
+  }
+  .clone-header .clone-mobile-toggle:focus-visible,
+  .clone-navigation :is(a, summary):focus-visible {
+    outline: 2px solid var(--clone-blue);
+    outline-offset: 3px;
+  }
+  .listing-controls select {
+    flex: 1 1 160px;
+    min-width: min(160px, 100%);
+    max-width: 100%;
+  }
+  .clone-cookie {
+    max-height: calc(100dvh - 32px);
+    bottom: max(16px, env(safe-area-inset-bottom));
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+  .clone-cookie > button {
+    min-height: 44px;
+  }
+  .clone-chat-panel {
+    max-height: calc(100dvh - 100px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+  /* Prevent automatic input zoom in mobile Safari without restricting zoom. */
+  body :is(input, select, textarea):not([type="checkbox"]):not([type="radio"]) {
+    font-size: 16px;
+  }
+}
+@media (max-width: 430px) {
+  .clone-header .vantora-wordmark {
+    font-size: 24px;
+    letter-spacing: -1px;
+  }
+  .clone-header-inner {
+    gap: 8px;
+  }
+  .clone-language summary {
+    padding-inline: 8px;
+  }
+  .clone-navigation .mega-sector-grid {
+    grid-template-columns: 1fr;
+  }
+}

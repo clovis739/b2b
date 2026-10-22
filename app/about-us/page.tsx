@@ -5,7 +5,7 @@ import { pageMetadata } from "@/lib/page-metadata";
 
 const entry: PageEntry = {
   "path": "/about-us",
-  "title": "About Globy",
+  "title": "About Vantora",
   "kind": "about"
 };
 

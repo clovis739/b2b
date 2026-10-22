@@ -212,7 +212,7 @@ async function main() {
     await buyer.getByRole("button", { name: "Open test mailbox" }).click();
     await buyer
       .locator(".test-mailbox article")
-      .filter({ hasText: "Reset your marketplace password" })
+      .filter({ hasText: "Reset your Vantora password" })
       .getByRole("link")
       .click();
     await buyer

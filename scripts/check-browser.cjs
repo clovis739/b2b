@@ -97,7 +97,7 @@ async function main() {
         page.waitForEvent("download"),
         page.getByRole("button", { name: "Download", exact: true }).click(),
       ]);
-      assert.match(download.suggestedFilename(), /globy-contact/);
+      assert.match(download.suggestedFilename(), /vantora-contact/);
       await goto("/auth/sign-up/buyer");
       await page.screenshot({
         path: path.join(artifacts, "registration-desktop.png"),

@@ -9,7 +9,7 @@ export default function SiteFooter() {
       <div className="clone-footer-inner">
         <div className="clone-footer-top">
           <div className="clone-footer-about">
-            <Link href="/" aria-label="Globy home">
+            <Link href="/" aria-label="Vantora home">
               <Logo />
             </Link>
             <p>
@@ -18,10 +18,10 @@ export default function SiteFooter() {
             </p>
           </div>
           <div className="clone-social">
-            <span>Explore Globy</span>
+            <span>Explore Vantora</span>
             <div>
               {[
-                { label: "About Globy", href: "/about-us", icon: "globe" },
+                { label: "About Vantora", href: "/about-us", icon: "globe" },
                 { label: "Industry insights", href: "/blog", icon: "file" },
                 {
                   label: "Trade show calendar",
@@ -57,7 +57,7 @@ export default function SiteFooter() {
         </nav>
         <div className="clone-footer-bottom">
           <p>
-            © 2026 Globy
+            © 2026 Vantora
             <span className="clone-footer-disclosure">
               Independent local implementation.
             </span>

@@ -5,7 +5,7 @@ import { pageMetadata } from "@/lib/page-metadata";
 
 const entry: PageEntry = {
   "path": "/blog/author/globy-editorial",
-  "title": "Globy editorial",
+  "title": "Vantora editorial",
   "kind": "author"
 };
 

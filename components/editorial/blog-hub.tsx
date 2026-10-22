@@ -42,7 +42,7 @@ export default function BlogHub({ entry }: { entry: PageEntry }) {
       <BlogNavigation category={category} />
       <header className="blog-masthead">
         <div>
-          <span className="page-kicker">GLOBY INSIGHTS</span>
+          <span className="page-kicker">VANTORA INSIGHTS</span>
           <h1>{category || "Ideas that move business forward."}</h1>
           <p>
             {category

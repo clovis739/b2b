@@ -7,7 +7,7 @@ const entry: PageEntry = {
   key: "404",
 };
 export const metadata = {
-  title: entry.title + " | Globy",
+  title: entry.title + " | Vantora",
   robots: { index: false, follow: false },
 };
 export default function Page() {

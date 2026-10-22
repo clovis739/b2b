@@ -1,7 +1,5 @@
+import { brand } from "@/lib/brand";
+
 export function Logo() {
-  return (
-    <span className="globy-wordmark">
-      <span>G</span>loby
-    </span>
-  );
+  return <span className="vantora-wordmark">{brand.name}</span>;
 }
