@@ -1,0 +1,332 @@
+.about-reference {
+  color: #17243b;
+}
+.about-eyebrow {
+  display: block;
+  color: #005bff;
+  font-size: 0.8125rem;
+  font-weight: 650;
+  margin-bottom: 20px;
+}
+.about-reference h2 {
+  font-size: clamp(1.75rem, 3.4vw, 3rem);
+  line-height: 1.22;
+  font-weight: 600;
+  letter-spacing: -0.035em;
+}
+.about-reference p {
+  font-size: 1rem;
+  line-height: 1.85;
+  color: #67748a;
+  text-wrap: pretty;
+}
+.about-section {
+  margin: 100px 0;
+}
+.about-mission {
+  max-width: 1040px;
+  margin: 34px auto 90px;
+  text-align: center;
+  padding: 35px 10px 50px;
+}
+.about-mission h1 {
+  font-size: clamp(2.25rem, 4.5vw, 4.25rem);
+  line-height: 1.17;
+  letter-spacing: -0.045em;
+  font-weight: 600;
+}
+.about-mission h1 span {
+  color: #005bff;
+}
+.about-mission > p {
+  max-width: 600px;
+  margin: 26px auto;
+}
+.about-scroll-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #005bff;
+  font-size: 0.875rem;
+  padding: 10px;
+}
+.about-problem {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 70px;
+  align-items: center;
+}
+.about-section-intro p {
+  margin-top: 24px;
+  max-width: 490px;
+}
+.about-participants {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+.about-participant {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  padding: 18px 16px;
+  border: 1px solid #e4eaf3;
+  border-radius: 14px;
+  background: #fff;
+  min-width: 0;
+}
+.about-participant > span {
+  color: #005bff;
+  display: grid;
+  place-items: center;
+  width: 45px;
+  height: 45px;
+  background: #eff5ff;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+.about-participant strong {
+  font-size: 0.8125rem;
+  font-weight: 550;
+}
+.about-created {
+  text-align: center;
+  padding: 60px 40px 36px;
+  border-radius: 28px;
+  background: #f3f7ff;
+}
+.about-created h2 {
+  font-size: clamp(2.25rem, 4vw, 3.75rem);
+}
+.about-created h2 > span {
+  color: #005bff;
+}
+.about-created > p {
+  max-width: 630px;
+  margin: 24px auto 45px;
+}
+.about-statistics {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin: 20px 0 28px;
+}
+.about-statistics > div {
+  display: grid;
+  gap: 12px;
+  padding: 16px;
+  border-right: 1px solid #dce6f8;
+}
+.about-statistics > div:last-child {
+  border: 0;
+}
+.about-statistics strong {
+  color: #005bff;
+  font-size: clamp(2.25rem, 4vw, 3.5rem);
+  line-height: 1.1;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+.about-statistics span {
+  font-size: 0.875rem;
+  color: #53627a;
+}
+.about-created > small {
+  font-size: 0.6875rem;
+  color: #68768b;
+}
+.about-experience {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 90px;
+  align-items: center;
+}
+.about-experience p + p {
+  margin-top: 16px;
+}
+.about-journey {
+  scroll-margin-top: 110px;
+}
+.about-journey > header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.about-journey > header p {
+  margin-top: 20px;
+}
+.about-journey-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 16px;
+  padding: 0;
+  list-style: none;
+}
+.about-journey-card {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 18px;
+  border: 1px solid #e2e9f4;
+  border-radius: 16px;
+  min-width: 0;
+  background: white;
+}
+.about-journey-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #005bff;
+  margin-bottom: 26px;
+}
+.about-step-number {
+  font-size: 0.75rem;
+  font-weight: 650;
+  background: #eef4ff;
+  padding: 6px 9px;
+  border-radius: 7px;
+}
+.about-journey-card h3 {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 12px;
+  font-weight: 650;
+}
+.about-journey-card p {
+  font-size: 0.8125rem;
+  line-height: 1.75;
+  margin-bottom: 20px;
+}
+.about-journey-card > a {
+  margin-top: auto;
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 0.75rem;
+  color: #005bff;
+  padding: 5px 0;
+}
+.about-ecosystem {
+  border: 1px solid #e1e9f5;
+  border-radius: 28px;
+  text-align: center;
+  padding: 52px 30px;
+}
+.about-ecosystem > p {
+  margin: 20px auto 34px;
+}
+.about-ecosystem-flow {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  gap: 10px;
+}
+.about-ecosystem-flow > div {
+  display: grid;
+  justify-items: center;
+  gap: 16px;
+  padding: 20px 6px;
+  color: #005bff;
+  border-radius: 14px;
+  background: #f4f7fd;
+}
+.about-ecosystem-flow span {
+  font-size: 0.75rem;
+  color: #53627a;
+}
+.about-vision {
+  text-align: center;
+  max-width: 850px;
+  margin-inline: auto;
+}
+.about-vision h2 {
+  font-size: clamp(2rem, 4.5vw, 4rem);
+}
+.about-vision > p {
+  margin: 24px auto;
+}
+.about-vision-pillars {
+  display: flex;
+  gap: 22px;
+  justify-content: center;
+  align-items: center;
+  margin: 32px auto;
+  color: #005bff;
+}
+.about-vision-pillars span {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+.about-signoff {
+  display: block;
+  margin-top: 36px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #69768a;
+}
+@media (max-width: 1100px) {
+  .about-journey-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .about-problem,
+  .about-experience {
+    gap: 34px;
+  }
+  .about-ecosystem-flow {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+@media (max-width: 700px) {
+  .about-section {
+    margin-block: 60px;
+  }
+  .about-mission {
+    margin: 14px 0 50px;
+    padding: 25px 0;
+  }
+  .about-mission h1 {
+    font-size: 2.25rem;
+  }
+  .about-problem,
+  .about-experience {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .about-created {
+    padding: 34px 18px 24px;
+    border-radius: 20px;
+  }
+  .about-statistics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px 0;
+  }
+  .about-statistics > div:nth-child(2) {
+    border: 0;
+  }
+  .about-journey-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+  .about-journey-card {
+    padding: 20px 14px;
+  }
+  .about-ecosystem {
+    padding: 32px 16px;
+  }
+  .about-ecosystem-flow {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .about-vision-pillars {
+    gap: 12px;
+  }
+  .about-vision-pillars span {
+    font-size: 0.875rem;
+  }
+  .about-participant {
+    padding: 12px 10px;
+    gap: 8px;
+  }
+  .about-participant > span {
+    width: 34px;
+    height: 34px;
+  }
+  .about-participant strong {
+    font-size: 0.75rem;
+  }
+}

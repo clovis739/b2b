@@ -1,0 +1,37 @@
+[
+  {
+    "event": "FIGAP Mexico",
+    "image": "/images/events/figap-mexico.webp",
+    "original": "https://media.globy.com/public/events/672b58a8d1088f0061c35905/logo/672b58a8d1088f0061c35939/672b58a8d1088f0061c35939_lg.webp",
+    "source": "https://globy.com/events-calendar/figap-mexico-f8db75",
+    "checkedAt": "2026-10-21"
+  },
+  {
+    "event": "ImLabOp",
+    "image": "/images/events/imlabop.webp",
+    "original": "https://media.globy.com/public/events/683559e324b333010c04819a/logo/683559e324b333010c04819b/683559e324b333010c04819b_lg.webp",
+    "source": "https://globy.com/events-calendar/imlabop-ceb6a8",
+    "checkedAt": "2026-10-21"
+  },
+  {
+    "event": "FIGAS & VEHIGAS",
+    "image": "/images/events/figas-vehigas.webp",
+    "original": "https://media.globy.com/public/events/691dbc30e66a7d00263ab3ff/logo/691dbc30e66a7d00263ab400/691dbc30e66a7d00263ab400_lg.webp",
+    "source": "https://globy.com/events-calendar/figas-vehigas-73d48e",
+    "checkedAt": "2026-10-21"
+  },
+  {
+    "event": "ECOFair",
+    "image": "/images/events/ecofair.webp",
+    "original": "https://media.globy.com/public/events/69650920594cc8246e94e12a/logo/69650920594cc8246e94e12b/69650920594cc8246e94e12b_lg.webp",
+    "source": "https://globy.com/events-calendar/ecofair-971d73",
+    "checkedAt": "2026-10-21"
+  },
+  {
+    "event": "WT Asia",
+    "image": "/images/events/wt-asia.webp",
+    "original": "https://media.globy.com/public/events/699ff6114e30b4002696409f/logo/699ff6114e30b400269640a0/699ff6114e30b400269640a0_lg.webp",
+    "source": "https://globy.com/events-calendar/wt-asia-f0d2dc",
+    "checkedAt": "2026-10-21"
+  }
+]

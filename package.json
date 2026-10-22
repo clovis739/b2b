@@ -6,16 +6,36 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "check:site": "node scripts/check-site.cjs",
+    "check:pages": "node scripts/check-page-types.cjs",
+    "check:backend": "node scripts/check-backend.cjs",
+    "check:browser": "node scripts/check-browser.cjs",
+    "check:motion": "node scripts/check-motion.cjs",
+    "check:sliders": "node scripts/check-sliders.cjs",
+    "check:trade": "node scripts/check-trade.cjs",
+    "seed:test": "node scripts/seed-test.cjs",
+    "check:trade-browser": "node scripts/check-trade-browser.cjs"
+  },
+  "engines": {
+    "node": ">=24.0.0"
   },
   "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^7.3.1",
+    "@fortawesome/react-fontawesome": "^3.5.0",
+    "@gsap/react": "^2.1.2",
+    "gsap": "^3.15.0",
+    "lucide-react": "^1.61.0",
     "next": "16.4.2",
+    "nodemailer": "^10.1.7",
     "react": "19.3.0",
     "react-dom": "19.3.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.64.1",
     "@tailwindcss/turbopack": "^4",
     "@types/node": "^20",
+    "@types/nodemailer": "^8.0.2",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",

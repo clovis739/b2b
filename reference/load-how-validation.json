@@ -1,0 +1,16 @@
+{
+  "cards": 4,
+  "illustrations": [
+    "Cargo dimensions",
+    "Equipment selection",
+    "Cargo breakdown",
+    "3D container"
+  ],
+  "responsiveWidths": [
+    1440,
+    768,
+    390,
+    320
+  ],
+  "errors": []
+}

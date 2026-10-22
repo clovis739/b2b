@@ -1,0 +1,311 @@
+/* Source event logos keep their original proportions and white backgrounds. */
+.event-carousel .home-trade-show {
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 18px;
+}
+.trade-show-logo {
+  position: relative;
+  width: 100%;
+  height: 165px;
+  background: #fff;
+  margin-bottom: 18px;
+  border-bottom: 1px solid #edf0f5;
+}
+.trade-show-logo img {
+  object-fit: contain;
+  padding: 10px 4px 22px;
+}
+.event-carousel .home-trade-show h3 {
+  min-height: 0;
+  margin: 0 0 16px;
+  font-size: 1.125rem;
+  font-weight: 650;
+}
+.event-carousel .home-trade-show p {
+  font-size: 0.8125rem;
+  line-height: 1.7;
+}
+.event-carousel .home-trade-show .event-sector-tag {
+  align-self: flex-start;
+  margin-top: 22px;
+  font-size: 0.6875rem;
+}
+.event-detail-logo,
+.event-listing-logo {
+  position: relative;
+  background: white;
+  border: 1px solid #e7ecf3;
+}
+.event-detail-logo {
+  min-height: 340px;
+  border-radius: 18px;
+}
+.event-listing-logo {
+  height: 220px;
+  border-width: 0 0 1px;
+}
+.event-detail-logo img,
+.event-listing-logo img {
+  object-fit: contain;
+  padding: 28px;
+}
+.event-source-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.event-source-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #005bff;
+}
+
+/* Five reference link groups, with a separate brand/contact row and legal strip. */
+.clone-footer {
+  width: auto;
+  margin-inline: 28px;
+  border-radius: 28px 28px 0 0;
+  padding: 0 32px;
+  background: #005bff;
+}
+.clone-footer-inner {
+  max-width: 1320px;
+  margin-inline: auto;
+}
+.clone-footer[data-theme="teal"] {
+  background: #00816c;
+}
+.clone-footer[data-theme="teal"] .clone-footer-about p,
+.clone-footer[data-theme="teal"] .clone-footer-bottom > p {
+  color: #eefaf6;
+}
+.clone-footer[data-theme="teal"] .clone-footer-columns h2,
+.clone-footer[data-theme="teal"] .clone-social > span,
+.clone-footer[data-theme="teal"] .clone-footer-contact > span,
+.clone-footer[data-theme="teal"] .clone-footer-disclosure {
+  color: #d6f1e8;
+}
+.clone-footer-top {
+  display: grid;
+  grid-template-columns: minmax(0, 1.8fr) minmax(180px, 0.8fr) minmax(
+      190px,
+      0.8fr
+    );
+  gap: 48px;
+  padding: 56px 0 44px;
+  align-items: center;
+  border-bottom: 1px solid #ffffff30;
+}
+.clone-footer-about {
+  max-width: 530px;
+}
+.clone-footer-about p {
+  font-size: 0.9375rem;
+  line-height: 1.8;
+  margin-top: 18px;
+  color: #eef4ff;
+  max-width: 490px;
+}
+.clone-footer .globy-wordmark {
+  font-size: 42px;
+}
+.clone-footer .clone-social {
+  padding: 6px 0 6px 36px;
+  border-left: 1px solid #ffffff30;
+  border-right: 0;
+  min-width: 0;
+}
+.clone-footer .clone-social > span,
+.clone-footer-contact > span {
+  font-size: 0.8125rem;
+  color: #dce9ff;
+  margin-bottom: 16px;
+}
+.clone-footer .clone-social > div {
+  display: flex;
+  gap: 10px;
+}
+.clone-footer .clone-social a {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ffffff18;
+}
+.clone-footer-contact {
+  border-left: 1px solid #ffffff30;
+  padding: 6px 0 6px 36px;
+  min-width: 0;
+}
+.clone-footer-contact a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 22px;
+  margin: 0;
+  padding: 12px 16px;
+  border: 1px solid #ffffff70;
+  border-radius: 12px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.clone-footer-columns {
+  display: grid;
+  grid-template-columns: 1.15fr 1.4fr 0.95fr 0.95fr 1.1fr;
+  gap: 32px;
+  padding: 42px 0 44px;
+}
+.clone-footer-columns > div {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  align-items: stretch;
+  min-width: 0;
+}
+.clone-footer-columns h2 {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: #dce9ff;
+  padding: 0 10px;
+  margin: 0 0 15px;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+.clone-footer-columns a {
+  font-size: 0.875rem;
+  min-height: 43px;
+  padding: 10px;
+  line-height: 1.6;
+}
+.clone-footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 24px 0;
+  border-top: 1px solid #ffffff30;
+  font-size: 0.75rem;
+}
+.clone-footer-bottom > p {
+  margin: 0;
+  color: #eef4ff;
+  line-height: 1.7;
+}
+.clone-footer-disclosure {
+  display: inline-block;
+  color: #dce9ff;
+  margin-left: 14px;
+}
+.clone-footer-bottom > nav {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.clone-footer-bottom a {
+  padding: 10px 12px;
+  color: #fff;
+}
+@media (max-width: 1050px) {
+  .clone-footer-top {
+    grid-template-columns: minmax(0, 1.4fr) minmax(160px, 1fr);
+    gap: 32px;
+  }
+  .clone-footer-about {
+    grid-column: 1/-1;
+    max-width: 640px;
+  }
+  .clone-footer .clone-social {
+    padding-left: 0;
+    border: 0;
+  }
+  .clone-footer-contact {
+    padding-left: 28px;
+  }
+  .clone-footer-columns {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 32px 24px;
+  }
+}
+@media (max-width: 600px) {
+  .clone-footer {
+    margin-inline: 12px;
+    border-radius: 22px 22px 0 0;
+    padding: 0 20px;
+  }
+  .clone-footer-top {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    padding: 36px 0 32px;
+    gap: 28px 18px;
+  }
+  .clone-footer-about p {
+    font-size: 0.875rem;
+    line-height: 1.8;
+  }
+  .clone-footer .globy-wordmark {
+    font-size: 36px;
+  }
+  .clone-footer .clone-social a {
+    width: 32px;
+    height: 32px;
+  }
+  .clone-footer .clone-social > div {
+    gap: 6px;
+  }
+  .clone-footer .clone-social svg {
+    width: 14px;
+    height: 14px;
+  }
+  .clone-footer-contact {
+    padding-left: 16px;
+  }
+  .clone-footer-contact a {
+    font-size: 0.875rem;
+    padding: 10px 12px;
+    gap: 12px;
+    white-space: nowrap;
+  }
+  .clone-footer-columns {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding: 32px 0;
+    gap: 28px 18px;
+  }
+  .clone-footer-columns h2 {
+    padding-inline: 8px;
+    margin-bottom: 10px;
+    font-size: 0.75rem;
+  }
+  .clone-footer-columns a {
+    padding: 10px 8px;
+    font-size: 0.8125rem;
+  }
+  .clone-footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 20px 0 24px;
+  }
+  .clone-footer-disclosure {
+    display: block;
+    margin: 4px 0 0;
+  }
+  .clone-footer-bottom > nav {
+    gap: 10px;
+    margin-left: -12px;
+  }
+  .trade-show-logo {
+    height: 180px;
+  }
+}
+@media (max-width: 360px) {
+  .clone-footer-top {
+    grid-template-columns: 1fr;
+  }
+  .clone-footer-contact {
+    border: 0;
+    padding: 0;
+  }
+}

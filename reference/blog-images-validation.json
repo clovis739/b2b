@@ -1,0 +1,12 @@
+{
+  "articles": 8,
+  "cardImages": 12,
+  "detailImages": 8,
+  "relatedImages": true,
+  "viewports": [
+    1440,
+    390,
+    320
+  ],
+  "errors": []
+}

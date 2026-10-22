@@ -1,0 +1,236 @@
+:root {
+  --font-product: var(--font-manrope), Arial, Helvetica, sans-serif;
+  --type-caption: 0.75rem;
+  --type-label: 0.8125rem;
+  --type-body: 0.9375rem;
+  --type-product-title: 1rem;
+  --type-price: 1.375rem;
+}
+
+body {
+  font-family: var(--font-product);
+  line-height: 1.6;
+}
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+h1,
+h2,
+h3 {
+  font-family: var(--font-product);
+}
+h1,
+.page-intro h1,
+.trade-heading h1 {
+  font-weight: 650;
+  letter-spacing: -0.035em;
+  text-wrap: balance;
+}
+h2,
+.section-title h2,
+.clone-section-heading h2 {
+  font-weight: 650;
+  letter-spacing: -0.025em;
+  text-wrap: balance;
+}
+h3 {
+  font-weight: 600;
+  letter-spacing: -0.015em;
+}
+.page-intro p,
+.product-detail-copy p,
+.article-body p {
+  text-wrap: pretty;
+  max-width: 70ch;
+}
+.page-kicker,
+.mega-eyebrow {
+  font-weight: 700;
+  letter-spacing: 0.13em;
+}
+.primary,
+.outline-button,
+.clone-link-button,
+.contact-button {
+  font-weight: 650;
+  letter-spacing: -0.01em;
+}
+.clone-navigation {
+  font-weight: 500;
+}
+.detail-price,
+.product-price,
+.trade-quote,
+.workspace-stats strong,
+.carousel-count {
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+/* A consistent product hierarchy across catalog, supplier and saved-product grids. */
+.site-product {
+  display: flex;
+  flex-direction: column;
+  border-color: #e3e8f0;
+  border-radius: 14px;
+}
+.site-product-image {
+  height: 220px;
+  background: #f4f6f8;
+}
+.site-product-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 20px;
+}
+.product-card-category {
+  color: #0058ed;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.site-product-body > small {
+  font-size: var(--type-caption);
+  color: #647084;
+  line-height: 1.5;
+}
+.site-product-body h3 {
+  font-size: var(--type-product-title);
+  font-weight: 650;
+  letter-spacing: -0.02em;
+  line-height: 1.45;
+  height: auto;
+  min-height: 2.9em;
+  margin: 12px 0 16px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.product-card-price {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  column-gap: 5px;
+  row-gap: 2px;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+.product-card-price strong {
+  font-size: var(--type-price);
+  font-weight: 750;
+  letter-spacing: -0.035em;
+  line-height: 1.3;
+  color: #18263d;
+}
+.site-product-body .unit {
+  font-size: var(--type-caption);
+  color: #647084;
+}
+.site-product-body > p {
+  font-size: var(--type-caption);
+  line-height: 1.6;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  color: #647084;
+}
+.site-product-body .supplier-name {
+  font-size: var(--type-label);
+  line-height: 1.5;
+  margin: auto 0 16px;
+  padding-top: 16px;
+  border-top: 1px solid #edf0f5;
+}
+.site-product-body .contact-button {
+  font-size: var(--type-label);
+  padding: 12px 10px;
+  min-height: 44px;
+}
+.sample-pill {
+  font-size: 0.6875rem;
+  font-weight: 500;
+}
+.product-detail-panel h1 {
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  line-height: 1.22;
+  letter-spacing: -0.035em;
+  font-weight: 650;
+}
+.product-detail-panel .detail-price {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 6px;
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  line-height: 1.3;
+}
+.product-detail-panel .detail-price strong {
+  font-weight: 750;
+}
+.product-detail-panel .detail-price > span {
+  font-size: var(--type-body);
+  color: #647084;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+.product-detail-panel > p,
+.product-detail-copy p,
+.spec-table {
+  font-size: var(--type-body);
+  line-height: 1.75;
+}
+
+@media (max-width: 700px) {
+  .site-product-image {
+    height: 175px;
+  }
+  .site-product-body {
+    padding: 14px 12px;
+  }
+  .product-card-category {
+    font-size: 0.625rem;
+    letter-spacing: 0.06em;
+  }
+  .site-product-body > small,
+  .site-product-body .unit,
+  .site-product-body > p {
+    font-size: 0.6875rem;
+  }
+  .site-product-body h3 {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    min-height: 4.5em;
+    -webkit-line-clamp: 3;
+    margin: 10px 0 12px;
+  }
+  .product-card-price strong {
+    font-size: 1.125rem;
+  }
+  .site-product-body .supplier-name {
+    font-size: 0.75rem;
+  }
+  .site-product-body .contact-button {
+    font-size: 0.75rem;
+    gap: 5px;
+  }
+  .site-product-body .contact-button > svg:last-child {
+    display: none;
+  }
+  .sample-pill {
+    font-size: 0.625rem;
+    padding: 4px 6px;
+  }
+  .site-content input,
+  .site-content select,
+  .site-content textarea,
+  .clone-hero input {
+    font-size: 1rem;
+  }
+}

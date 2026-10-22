@@ -1,0 +1,71 @@
+"use client";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+import { useGSAP } from "@gsap/react";
+gsap.registerPlugin(useGSAP, ScrollTrigger, ScrollToPlugin);
+export { gsap, ScrollTrigger, useGSAP };
+export const motion = {
+  enter: 0.62,
+  hover: 0.26,
+  exit: 0.18,
+  ease: "power3.out",
+};
+export const cardSelector = [
+  ".blog-article-card",
+  ".blog-compact-card",
+  ".about-journey-card",
+  ".about-participant",
+  ".trade-card",
+  ".event-carousel .carousel-slide > a",
+  ".insight-carousel .carousel-slide > article",
+  ".freight-carousel .carousel-slide > a",
+  ".site-product",
+  ".product-card",
+  ".editorial-card",
+  ".directory-card",
+  ".sector-tile",
+  ".info-card",
+  ".draft-card",
+  ".page-type-card",
+  ".supplier-card",
+  ".author-card",
+  ".clone-sector-card",
+  ".clone-sector-all",
+  ".clone-insight-grid > *",
+  ".clone-home-event-grid > a",
+  ".clone-rate-grid > a",
+  ".workspace-stats > a",
+  ".market-supplier-grid > a",
+  ".request-list > article",
+  ".site-map-list > a",
+].join(",");
+export const revealSelector = [
+  ".load-guide > section",
+  ".landed-guide > section",
+  ".about-mission > *",
+  ".about-section-intro",
+  ".about-created",
+  ".about-experience > div",
+  ".about-ecosystem",
+  ".about-vision",
+  cardSelector,
+  ".page-form",
+  ".content-panel",
+  ".form-aside",
+  ".clone-section-heading",
+  ".page-section > .section-title",
+  ".clone-sourcing-strip",
+  ".clone-service-content",
+  ".clone-rfq-preview",
+  ".clone-freight-panel",
+  ".clone-trending",
+  ".clone-join",
+  ".about-statement",
+  ".supplier-profile-hero",
+  ".cost-summary",
+  ".load-preview",
+  ".freight-rate",
+  ".route-tool",
+  ".article-body > section",
+].join(",");

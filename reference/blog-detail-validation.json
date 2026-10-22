@@ -1,0 +1,11 @@
+{
+  "articles": 8,
+  "sectionsPerArticle": 5,
+  "viewports": [
+    1440,
+    390,
+    320
+  ],
+  "anchorFocus": true,
+  "errors": []
+}

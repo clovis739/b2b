@@ -1,0 +1,8 @@
+{
+  "mixedLoads": 3,
+  "countsPreserved": true,
+  "dimensionAndWeightLimits": true,
+  "noStacking": true,
+  "oversize": true,
+  "invalidInputs": true
+}

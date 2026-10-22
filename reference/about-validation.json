@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "journeySteps": 10,
+  "participants": 7,
+  "viewports": [
+    1440,
+    768,
+    390,
+    320
+  ],
+  "runtimeErrors": []
+}

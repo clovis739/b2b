@@ -1,0 +1,30 @@
+{
+  "url": "https://globy.com/load-calculator",
+  "checked": "2026-10-22",
+  "plannerSteps": [
+    "Products",
+    "Container & Trucks",
+    "Stuffing result"
+  ],
+  "sections": [
+    "Container & Truck Load Calculator",
+    "How It Works?",
+    "Why Use Our Load Calculator?",
+    "Who Benefits from Our Load Calculator?",
+    "Key Features of Our Container & Truck Load Calculator",
+    "Plan Your Cargo with Our Calculators",
+    "Get Started with Our Load Calculator Today!"
+  ],
+  "image": {
+    "requested": "https://globy.com/load-calculator/assets/images/container-banner.png",
+    "status": 403,
+    "replacement": "/images/containers.jpg"
+  },
+  "limits": [
+    "Reference interactive app controls and exact styling were not available from the public text extraction.",
+    "Local solver uses separate lengthwise sections, bounding boxes and horizontal rotation.",
+    "No axle-load, center-of-gravity, support/fragility, restraint or compliance certification.",
+    "Visualization is an SVG isometric/top schematic with up to 180 items displayed per load.",
+    "Preset dimensions are illustrative planning assumptions."
+  ]
+}

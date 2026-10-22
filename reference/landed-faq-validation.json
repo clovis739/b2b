@@ -1,0 +1,16 @@
+{
+  "opening": {
+    "height": 73.5,
+    "total": 74
+  },
+  "closing": {
+    "height": 44,
+    "total": 74
+  },
+  "keyboard": true,
+  "rapidClicks": true,
+  "reducedMotion": true,
+  "responsive": true,
+  "accent": "rgb(0, 129, 108)",
+  "errors": []
+}

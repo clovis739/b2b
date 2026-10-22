@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "checks": [
+    "footer hover/focus: reduce",
+    "footer hover/focus: no-preference",
+    "no overflow: 1440",
+    "no overflow: 768",
+    "no overflow: 390",
+    "no overflow: 320",
+    "sourcing preview remains visible after live motion preference changes",
+    "mobile sourcing preview after motion preference change",
+    "Italy calculator destination opens correctly"
+  ],
+  "runtimeErrors": [],
+  "reference": "https://globy.com/",
+  "referenceScreenshot": "blocked by challenge; public page structure and text compared",
+  "footerHover": "GSAP opacity and scale; dark blue background preserves white text contrast"
+}

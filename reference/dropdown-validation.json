@@ -1,0 +1,68 @@
+{
+  "coverage": [
+    {
+      "route": "/b2bmarket/search",
+      "selects": 2
+    },
+    {
+      "route": "/sourcing-request/listing",
+      "selects": 2
+    },
+    {
+      "route": "/rfqs/add-rfq",
+      "selects": 6
+    },
+    {
+      "route": "/freight-calculator",
+      "selects": 4
+    },
+    {
+      "route": "/freight-calculator/freight-request",
+      "selects": 2
+    },
+    {
+      "route": "/load-calculator",
+      "selects": 1
+    },
+    {
+      "route": "/events-calendar",
+      "selects": 1
+    },
+    {
+      "route": "/events-calendar/submit",
+      "selects": 2
+    },
+    {
+      "route": "/webinars",
+      "selects": 1
+    },
+    {
+      "route": "/site-map",
+      "selects": 1
+    },
+    {
+      "route": "/contact-us",
+      "selects": 1
+    },
+    {
+      "route": "/unclaimed-cargo/create",
+      "selects": 4
+    },
+    {
+      "route": "/landed-cost/product",
+      "selects": 3
+    }
+  ],
+  "keyboard": true,
+  "dependentFields": true,
+  "formData": true,
+  "headerMenus": true,
+  "homeFreight": true,
+  "viewports": [
+    1440,
+    768,
+    390,
+    320
+  ],
+  "errors": []
+}

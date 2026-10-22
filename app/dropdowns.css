@@ -1,0 +1,228 @@
+:root {
+  --dropdown-accent: #005bff;
+  --dropdown-accent-strong: #0047cc;
+  --dropdown-soft: #edf4ff;
+  --dropdown-border: #d6e0ef;
+  --dropdown-ink: #26364e;
+  --dropdown-muted: #64748b;
+  /* Lucide ChevronDown, ISC license. */
+  --dropdown-chevron: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  --dropdown-check: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M20 6 9 17l-5-5'/%3E%3C/svg%3E");
+}
+
+.landed-calculator {
+  --dropdown-accent: var(--landed-accent);
+  --dropdown-accent-strong: var(--landed-accent-strong);
+  --dropdown-soft: var(--landed-soft);
+  --dropdown-border: var(--landed-input-border);
+}
+
+select:not([multiple]) {
+  appearance: none;
+  min-width: 0;
+  max-width: 100%;
+  min-height: 44px;
+  padding: 10px 40px 10px 14px;
+  border: 1px solid var(--dropdown-border);
+  border-radius: 9px;
+  color: var(--dropdown-ink);
+  background-color: white;
+  background-image: var(--dropdown-chevron);
+  background-repeat: no-repeat;
+  background-position: right 13px center;
+  font-family: inherit;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  color-scheme: light;
+}
+
+select:not([multiple]):hover:not(:disabled) {
+  border-color: var(--dropdown-accent);
+}
+select:not([multiple]):focus-visible {
+  outline: 2px solid var(--dropdown-accent);
+  outline-offset: 3px;
+  border-color: var(--dropdown-accent);
+}
+select:not([multiple]):disabled {
+  background-color: #f3f5f8;
+  color: #748196;
+  cursor: not-allowed;
+  opacity: 1;
+  border-color: #e0e5ed;
+}
+select:not([multiple]):user-invalid {
+  border-color: #b93636;
+}
+select option {
+  color: var(--dropdown-ink);
+  background: white;
+  font: inherit;
+}
+select option:disabled {
+  color: var(--dropdown-muted);
+}
+
+/* The browser still owns selection, typeahead, validation and form submission. */
+@supports (appearance: base-select) {
+  select:not([multiple]),
+  select:not([multiple])::picker(select) {
+    appearance: base-select;
+  }
+  select:not([multiple]) {
+    background-image: none;
+    padding-right: 14px;
+    align-items: center;
+    gap: 12px;
+  }
+  select:not([multiple])::picker-icon {
+    content: "";
+    width: 18px;
+    height: 18px;
+    background: currentColor;
+    mask: var(--dropdown-chevron) center / contain no-repeat;
+    color: var(--dropdown-accent);
+    flex-shrink: 0;
+    margin-left: auto;
+  }
+  select:not([multiple]):open {
+    border-color: var(--dropdown-accent);
+    background-color: var(--dropdown-soft);
+  }
+  select:not([multiple]):open::picker-icon {
+    rotate: 180deg;
+  }
+  select:not([multiple])::picker(select) {
+    min-width: anchor-size(width);
+    max-width: min(440px, calc(100vw - 24px));
+    max-height: min(340px, 55dvh);
+    margin-block: 7px;
+    padding: 6px;
+    border: 1px solid var(--dropdown-border);
+    border-radius: 12px;
+    background: white;
+    color: var(--dropdown-ink);
+    box-shadow: 0 12px 32px rgb(22 42 77 / 14%);
+    font-family: inherit;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    overflow: auto;
+    overscroll-behavior: contain;
+    scrollbar-width: thin;
+    scrollbar-color: var(--dropdown-border) transparent;
+  }
+  select:not([multiple]) option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    min-height: 42px;
+    padding: 10px 12px;
+    border-radius: 7px;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    cursor: pointer;
+  }
+  select:not([multiple]) option:hover:not(:disabled),
+  select:not([multiple]) option:focus-visible {
+    background: var(--dropdown-soft);
+    color: var(--dropdown-accent-strong);
+    outline: none;
+  }
+  select:not([multiple]) option:checked {
+    background: var(--dropdown-soft);
+    color: var(--dropdown-accent-strong);
+    font-weight: 600;
+  }
+  select:not([multiple]) option::checkmark {
+    content: "";
+    width: 17px;
+    height: 17px;
+    background: currentColor;
+    mask: var(--dropdown-check) center / contain no-repeat;
+    order: 1;
+    margin-left: auto;
+    color: var(--dropdown-accent);
+    flex-shrink: 0;
+  }
+  select:not([multiple]) option:disabled {
+    color: var(--dropdown-muted);
+    cursor: not-allowed;
+    background: #f8fafc;
+  }
+  select:not([multiple]) optgroup {
+    font-size: 0.8125rem;
+    color: var(--dropdown-muted);
+    font-weight: 600;
+  }
+}
+
+.clone-nav-details > summary,
+.clone-language > summary {
+  border-radius: 10px;
+}
+.clone-nav-details > summary:hover,
+.clone-language > summary:hover,
+.clone-nav-details[open] > summary,
+.clone-language[open] > summary {
+  color: var(--dropdown-accent);
+  background-color: var(--dropdown-soft);
+}
+.clone-nav-details > summary:focus-visible,
+.clone-language > summary:focus-visible,
+.clone-mega a:focus-visible {
+  outline: 2px solid var(--dropdown-accent);
+  outline-offset: 3px;
+}
+.clone-mega,
+.clone-language > div,
+.global-dropdown {
+  border-color: var(--dropdown-border);
+  box-shadow: 0 12px 32px rgb(22 42 77 / 14%);
+}
+.clone-language > div {
+  color: var(--dropdown-accent-strong);
+  background: var(--dropdown-soft);
+}
+.clone-language > div > svg {
+  color: var(--dropdown-accent);
+}
+.clone-mega a:hover,
+.clone-mega a:focus-visible {
+  background: var(--dropdown-soft);
+  color: var(--dropdown-accent-strong);
+}
+.clone-mega .mega-icon {
+  background: var(--dropdown-soft);
+  color: var(--dropdown-accent);
+}
+.clone-freight-search select:not([multiple]) {
+  min-height: 36px;
+  padding-block: 6px;
+  border-color: transparent;
+}
+
+@media (max-width: 750px) {
+  select:not([multiple]) {
+    font-size: 1rem;
+    min-height: 46px;
+  }
+  @supports (appearance: base-select) {
+    select:not([multiple])::picker(select) {
+      font-size: 1rem;
+    }
+  }
+}
+@media (forced-colors: active) {
+  select:not([multiple]) {
+    border-color: ButtonText;
+  }
+  @supports (appearance: base-select) {
+    select:not([multiple]) option:checked {
+      color: HighlightText;
+      background: Highlight;
+    }
+  }
+}

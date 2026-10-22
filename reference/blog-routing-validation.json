@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "localDetailRoutes": 8,
+  "sameTabNavigation": true,
+  "relatedArticles": true,
+  "sourceLinkSecondary": true,
+  "viewports": [
+    1440,
+    390,
+    320
+  ],
+  "runtimeErrors": []
+}

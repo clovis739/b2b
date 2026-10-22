@@ -1,0 +1,17 @@
+{
+  "stages": 3,
+  "multipleProducts": true,
+  "truckSelection": true,
+  "views": true,
+  "export": true,
+  "preservedInputs": true,
+  "guideSections": 7,
+  "relatedCalculators": 3,
+  "viewports": [
+    1440,
+    768,
+    390,
+    320
+  ],
+  "errors": []
+}

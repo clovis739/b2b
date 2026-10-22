@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "records": 8,
+  "sourceMetadata": true,
+  "sourceLinks": true,
+  "search": true,
+  "imagesVerified": false,
+  "imageStatus": "Original blog images inaccessible; labeled placeholders replace unrelated stock photos",
+  "viewports": [
+    1440,
+    390,
+    320
+  ],
+  "runtimeErrors": []
+}

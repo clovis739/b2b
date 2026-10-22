@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-10-21T18:11:40.680Z",
+  "engine": "GSAP",
+  "passed": [
+    "card hover/reset",
+    "keyboard focus lift",
+    "scroll reveal",
+    "back to top",
+    "anchor scrolling and focus",
+    "dialog entrance/exit",
+    "live reduced-motion changes",
+    "no browser errors",
+    "service panel transitions",
+    "navigation progress resets"
+  ]
+}

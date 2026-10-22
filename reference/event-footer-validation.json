@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "eventImages": 5,
+  "eventDetailPages": 5,
+  "footerGroups": [
+    3,
+    5,
+    3,
+    2,
+    3
+  ],
+  "viewports": [
+    1440,
+    768,
+    390,
+    320
+  ],
+  "hoverFocus": true,
+  "runtimeErrors": [],
+  "server": "production"
+}

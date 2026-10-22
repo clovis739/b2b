@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "checks": 24,
+  "viewports": [
+    1440,
+    390
+  ],
+  "runtimeErrors": [],
+  "flows": [
+    "registration",
+    "test email verification",
+    "product and RFQ publication",
+    "admin review",
+    "buyer inquiry",
+    "supplier quote",
+    "RFQ quote",
+    "password recovery",
+    "account deletion"
+  ]
+}

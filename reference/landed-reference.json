@@ -1,0 +1,32 @@
+{
+  "url": "https://globy.com/landed-cost/product",
+  "checked": "2026-10-22",
+  "verifiedStructure": [
+    "Product & price",
+    "Shipping type",
+    "See How the Calculator Works",
+    "What the Calculator Shows",
+    "What Is Included in Landed Cost?",
+    "How Landed Cost Is Calculated",
+    "Why the Supplier Price Is Not Enough",
+    "Compare Costs Before You Order",
+    "Landed Cost and Profit Margin",
+    "How Customs Duty Affects the Calculation",
+    "Frequently Asked Questions"
+  ],
+  "tutorialThumbnail": "https://i.ytimg.com/vi/TtE5lqNyd8g/maxresdefault.jpg",
+  "tutorialVideo": "TtE5lqNyd8g",
+  "limitation": "Reference text and linked thumbnail verified; browser screenshot of the original was unavailable. Rates and quotes are entered manually.",
+  "theme": {
+    "accent": "#00816c",
+    "strong": "#006b59",
+    "surface": "#edf8f4",
+    "status": "Green/teal color family confirmed by the user. Exact hex values inferred from the calculator tutorial; original stylesheet remains inaccessible."
+  },
+  "sectionCoverage": {
+    "mainSections": 11,
+    "costRows": 8,
+    "faqItems": 7,
+    "orderMatchesReference": true
+  }
+}

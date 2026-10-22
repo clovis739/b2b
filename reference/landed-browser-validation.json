@@ -1,0 +1,20 @@
+{
+  "fourStepWorkflow": true,
+  "requiredValidation": true,
+  "routeValidation": true,
+  "shippingModes": [
+    "sea",
+    "air",
+    "road"
+  ],
+  "retainedInputs": true,
+  "csvExport": true,
+  "recoverableTax": true,
+  "viewports": [
+    1440,
+    768,
+    390,
+    320
+  ],
+  "errors": []
+}

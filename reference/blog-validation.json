@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "topicSections": 6,
+  "viewports": [
+    1440,
+    768,
+    390,
+    320
+  ],
+  "search": true,
+  "emptyState": true,
+  "categoryNavigation": true,
+  "articleNavigation": true,
+  "runtimeErrors": []
+}

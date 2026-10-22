@@ -1,0 +1,30 @@
+{
+  "mainSections": 11,
+  "headings": [
+    "Product & price",
+    "Shipping type",
+    "See How the Calculator Works",
+    "What the Calculator Shows",
+    "What Is Included in Landed Cost?",
+    "How Landed Cost Is Calculated",
+    "Why the Supplier Price Is Not Enough",
+    "Compare Costs Before You Order",
+    "Landed Cost and Profit Margin",
+    "How Customs Duty Affects the Calculation",
+    "Frequently Asked Questions"
+  ],
+  "costRows": 8,
+  "faqItems": 7,
+  "faqOpenClose": true,
+  "comparisonLinks": [
+    "/shipping-schedules",
+    "/tracking"
+  ],
+  "viewports": [
+    1440,
+    768,
+    390,
+    320
+  ],
+  "errors": []
+}

@@ -1,0 +1,247 @@
+{
+  "checkedAt": "2026-10-21T18:08:39.190Z",
+  "totalPageTypes": 40,
+  "totalRoutes": 553,
+  "coverage": [
+    {
+      "kind": "home",
+      "title": "Homepage",
+      "example": "/",
+      "status": 200
+    },
+    {
+      "kind": "market",
+      "title": "Marketplace landing",
+      "example": "/b2bmarket",
+      "status": 200
+    },
+    {
+      "kind": "directory",
+      "title": "Category directory",
+      "example": "/b2bmarket/category-listing",
+      "status": 200
+    },
+    {
+      "kind": "listing",
+      "title": "Product listing",
+      "example": "/b2bmarket/search",
+      "status": 200
+    },
+    {
+      "kind": "product",
+      "title": "Product details",
+      "example": "/b2bmarket/listing/products/premium-indian-red-onions-export-quality-1",
+      "status": 200
+    },
+    {
+      "kind": "supplier",
+      "title": "Supplier profile",
+      "example": "/b2bmarket/supplier-listing/laskara-ltd",
+      "status": 200
+    },
+    {
+      "kind": "saved",
+      "title": "Saved products",
+      "example": "/saved-products",
+      "status": 200
+    },
+    {
+      "kind": "suppliers-promo",
+      "title": "Sell on Globy",
+      "example": "/market-promo",
+      "status": 200
+    },
+    {
+      "kind": "rfq-promo",
+      "title": "Sourcing introduction",
+      "example": "/sourcing-request",
+      "status": 200
+    },
+    {
+      "kind": "rfqs",
+      "title": "Sourcing requests",
+      "example": "/sourcing-request/listing",
+      "status": 200
+    },
+    {
+      "kind": "rfq",
+      "title": "Sourcing request details",
+      "example": "/sourcing-request/listing/fresh-red-onions",
+      "status": 200
+    },
+    {
+      "kind": "request-form",
+      "title": "Create RFQ",
+      "example": "/sourcing-request/create",
+      "status": 200
+    },
+    {
+      "kind": "cargo-promo",
+      "title": "Cargo introduction",
+      "example": "/unclaimed-cargo-promo",
+      "status": 200
+    },
+    {
+      "kind": "cargo",
+      "title": "Available cargo",
+      "example": "/unclaimed-cargo",
+      "status": 200
+    },
+    {
+      "kind": "cargo-detail",
+      "title": "Cargo details",
+      "example": "/offers/cotton-fabric-rotterdam",
+      "status": 200
+    },
+    {
+      "kind": "cargo-form",
+      "title": "List cargo",
+      "example": "/unclaimed-cargo/create",
+      "status": 200
+    },
+    {
+      "kind": "freight",
+      "title": "Freight calculator",
+      "example": "/freight-calculator",
+      "status": 200
+    },
+    {
+      "kind": "freight-form",
+      "title": "Freight quote request",
+      "example": "/freight-calculator/freight-request",
+      "status": 200
+    },
+    {
+      "kind": "load",
+      "title": "Load calculator",
+      "example": "/load-calculator",
+      "status": 200
+    },
+    {
+      "kind": "landed",
+      "title": "Landed cost calculator",
+      "example": "/landed-cost/product",
+      "status": 200
+    },
+    {
+      "kind": "tracking",
+      "title": "Container tracker",
+      "example": "/tracking",
+      "status": 200
+    },
+    {
+      "kind": "schedules",
+      "title": "Shipping schedules",
+      "example": "/shipping-schedules",
+      "status": 200
+    },
+    {
+      "kind": "logistics",
+      "title": "Logistics overview",
+      "example": "/logistics-promo",
+      "status": 200
+    },
+    {
+      "kind": "shipping-cost",
+      "title": "Shipping cost guide",
+      "example": "/container-shipping-cost",
+      "status": 200
+    },
+    {
+      "kind": "blog",
+      "title": "Insights listing",
+      "example": "/blog",
+      "status": 200
+    },
+    {
+      "kind": "article",
+      "title": "Article details",
+      "example": "/blog/a-practical-guide-to-global-sourcing",
+      "status": 200
+    },
+    {
+      "kind": "authors",
+      "title": "Author directory",
+      "example": "/blog/authors",
+      "status": 200
+    },
+    {
+      "kind": "author",
+      "title": "Author profile",
+      "example": "/blog/author/globy-editorial",
+      "status": 200
+    },
+    {
+      "kind": "events",
+      "title": "Event calendar",
+      "example": "/events-calendar",
+      "status": 200
+    },
+    {
+      "kind": "event",
+      "title": "Event details",
+      "example": "/events-calendar/global-food-trade-expo",
+      "status": 200
+    },
+    {
+      "kind": "event-form",
+      "title": "Submit an event",
+      "example": "/events-calendar/submit",
+      "status": 200
+    },
+    {
+      "kind": "webinars",
+      "title": "Webinars",
+      "example": "/webinars",
+      "status": 200
+    },
+    {
+      "kind": "about",
+      "title": "About the platform",
+      "example": "/about-us",
+      "status": 200
+    },
+    {
+      "kind": "contact",
+      "title": "Contact",
+      "example": "/contact-us",
+      "status": 200
+    },
+    {
+      "kind": "help",
+      "title": "Help center",
+      "example": "/help-center",
+      "status": 200
+    },
+    {
+      "kind": "help-article",
+      "title": "Help article",
+      "example": "/help-center/getting-started/what-can-i-do-on-this-site",
+      "status": 200
+    },
+    {
+      "kind": "auth",
+      "title": "Account screens",
+      "example": "/auth/verify-email",
+      "status": 200
+    },
+    {
+      "kind": "workspace",
+      "title": "Business workspace",
+      "example": "/trade",
+      "status": 200
+    },
+    {
+      "kind": "policy",
+      "title": "Policy pages",
+      "example": "/terms-and-conditions",
+      "status": 200
+    },
+    {
+      "kind": "sitemap",
+      "title": "Page directory",
+      "example": "/site-map",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "width": 1440,
+      "route": "/b2bmarket/listing/agriculture/vegetables",
+      "font": "manrope, \"manrope Fallback\", Arial, Helvetica, sans-serif, Arial, Helvetica, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "heading": "manrope, \"manrope Fallback\", Arial, Helvetica, sans-serif, Arial, Helvetica, sans-serif"
+    },
+    {
+      "width": 1440,
+      "route": "/b2bmarket/listing/products/premium-indian-red-onions-export-quality-1",
+      "font": "manrope, \"manrope Fallback\", Arial, Helvetica, sans-serif, Arial, Helvetica, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "heading": "manrope, \"manrope Fallback\", Arial, Helvetica, sans-serif, Arial, Helvetica, sans-serif"
+    },
+    {
+      "width": 390,
+      "route": "/b2bmarket/listing/agriculture/vegetables",
+      "font": "manrope, \"manrope Fallback\", Arial, Helvetica, sans-serif, Arial, Helvetica, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "heading": "manrope, \"manrope Fallback\", Arial, Helvetica, sans-serif, Arial, Helvetica, sans-serif"
+    },
+    {
+      "width": 390,
+      "route": "/b2bmarket/listing/products/premium-indian-red-onions-export-quality-1",
+      "font": "manrope, \"manrope Fallback\", Arial, Helvetica, sans-serif, Arial, Helvetica, sans-serif",
+      "fontReady": true,
+      "overflow": false,
+      "heading": "manrope, \"manrope Fallback\", Arial, Helvetica, sans-serif, Arial, Helvetica, sans-serif"
+    }
+  ]
+}

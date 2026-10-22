@@ -1,0 +1,409 @@
+{
+  "checkedAt": "2026-10-21T18:30:10.284Z",
+  "interactions": [
+    "modal Escape and focus restore",
+    "mobile menu"
+  ],
+  "responsiveChecks": [
+    {
+      "kind": "home",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "market",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "directory",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "listing",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "product",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "supplier",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "saved",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "suppliers-promo",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "rfq-promo",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "rfqs",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "rfq",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "request-form",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "cargo-promo",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "cargo",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "cargo-detail",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "cargo-form",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "freight",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "freight-form",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "load",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "landed",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "tracking",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "schedules",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "logistics",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "shipping-cost",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "blog",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "article",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "authors",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "author",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "events",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "event",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "event-form",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "webinars",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "about",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "contact",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "help",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "help-article",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "auth",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "workspace",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "policy",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "sitemap",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "kind": "home",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "market",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "directory",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "listing",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "product",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "supplier",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "saved",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "suppliers-promo",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "rfq-promo",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "rfqs",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "rfq",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "request-form",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "cargo-promo",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "cargo",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "cargo-detail",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "cargo-form",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "freight",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "freight-form",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "load",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "landed",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "tracking",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "schedules",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "logistics",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "shipping-cost",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "blog",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "article",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "authors",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "author",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "events",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "event",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "event-form",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "webinars",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "about",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "contact",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "help",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "help-article",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "auth",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "workspace",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "policy",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "kind": "sitemap",
+      "width": 390,
+      "overflow": false
+    }
+  ]
+}

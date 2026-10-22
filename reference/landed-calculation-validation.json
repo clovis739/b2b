@@ -1,0 +1,33 @@
+{
+  "scenario": {
+    "quantity": 1000,
+    "unitPrice": 20,
+    "freight": 1500,
+    "insurance": 500,
+    "dutyRate": 10,
+    "taxRate": 10,
+    "brokerage": 500,
+    "inland": 500,
+    "other": 100,
+    "sellingPrice": 40,
+    "recoverableTax": false
+  },
+  "result": {
+    "goods": 20000,
+    "customsValue": 22000,
+    "duty": 2200,
+    "taxBase": 24200,
+    "tax": 2420,
+    "cashOutlay": 27720,
+    "landed": 27720,
+    "perUnit": 27.72,
+    "revenue": 40000,
+    "profit": 12280,
+    "profitPerUnit": 12.280000000000001,
+    "margin": 30.7,
+    "markup": 44.300144300144304
+  },
+  "overrideAndRecoverableTax": true,
+  "negativeMargin": true,
+  "invalidInputsRejected": true
+}

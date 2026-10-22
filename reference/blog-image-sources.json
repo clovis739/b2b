@@ -1,0 +1,37 @@
+{
+  "note": "Replacement editorial photographs, not verified original Globy article images.",
+  "images": [
+    {
+      "file": "/images/blog/procurement-team.jpg",
+      "source": "https://images.unsplash.com/photo-1521737711867-e3b97375f902"
+    },
+    {
+      "file": "/images/blog/supply-planning.jpg",
+      "source": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d"
+    },
+    {
+      "file": "/images/blog/avocado-exports.jpg",
+      "source": "https://images.unsplash.com/photo-1523049673857-eb18f1d7b578"
+    },
+    {
+      "file": "/images/blog/alberta-trade.jpg",
+      "source": "https://images.unsplash.com/photo-1720157758006-c72deb5d185c"
+    },
+    {
+      "file": "/images/blog/ai-logistics.jpg",
+      "source": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31"
+    },
+    {
+      "file": "/images/blog/diplomacy-trade.jpg",
+      "source": "https://images.unsplash.com/photo-1578575437130-527eed3abbec"
+    },
+    {
+      "file": "/images/blog/chemical-events.jpg",
+      "source": "https://images.unsplash.com/photo-1540575467063-178a50c2df87"
+    },
+    {
+      "file": "/images/blog/unclaimed-cargo.jpg",
+      "source": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738"
+    }
+  ]
+}

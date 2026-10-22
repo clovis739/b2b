@@ -1,0 +1,13 @@
+{
+  "previewPages": 39,
+  "gallery": true,
+  "actual404": true,
+  "homeRecovery": true,
+  "viewports": [
+    1440,
+    768,
+    390,
+    320
+  ],
+  "errors": []
+}

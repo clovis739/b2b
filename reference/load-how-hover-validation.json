@@ -1,0 +1,31 @@
+{
+  "checks": [
+    {
+      "card": 0,
+      "animated": true,
+      "reversed": true,
+      "interruptions": true
+    },
+    {
+      "card": 1,
+      "animated": true,
+      "reversed": true,
+      "interruptions": true
+    },
+    {
+      "card": 2,
+      "animated": true,
+      "reversed": true,
+      "interruptions": true
+    },
+    {
+      "card": 3,
+      "animated": true,
+      "reversed": true,
+      "interruptions": true
+    }
+  ],
+  "keyboardFocus": true,
+  "reducedMotion": true,
+  "errors": []
+}

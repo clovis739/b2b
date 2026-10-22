@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "checks": 82,
+  "flows": [
+    "private test mailboxes",
+    "verification gates and one-time links",
+    "supplier products and buyer RFQs",
+    "pending-public separation",
+    "admin allowlist and review audit",
+    "owner-only editing and withdrawal",
+    "resubmission after rejection",
+    "private inquiry/reply/quote threads",
+    "invalid quote rejection",
+    "password recovery, expiry and session revocation",
+    "account deletion with cascades"
+  ],
+  "externalEmailsSent": 0
+}

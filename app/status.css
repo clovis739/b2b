@@ -1,0 +1,251 @@
+.http-status-page {
+  padding-block: 72px 48px;
+}
+.http-status-panel {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 64px;
+  align-items: center;
+  min-height: 430px;
+}
+.http-status-art {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-height: 370px;
+  isolation: isolate;
+  background: #f3f7ff;
+  border: 1px solid #e3ebf8;
+  border-radius: 32px;
+  overflow: hidden;
+}
+.http-status-code {
+  font-size: clamp(6rem, 13vw, 11rem);
+  line-height: 1;
+  letter-spacing: -0.07em;
+  font-weight: 700;
+  color: #005eff;
+}
+.http-status-orbit {
+  position: absolute;
+  width: 290px;
+  height: 290px;
+  border: 1px solid #d5e3ff;
+  border-radius: 50%;
+  z-index: -1;
+}
+.http-status-icon {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  display: grid;
+  place-items: center;
+  width: 72px;
+  height: 72px;
+  color: #005eff;
+  border: 1px solid #d5e3ff;
+  border-radius: 20px;
+  background: white;
+}
+.http-status-copy {
+  padding: 0;
+}
+.http-status-copy h1 {
+  font-size: clamp(2rem, 3.4vw, 3rem);
+  text-wrap: balance;
+}
+.http-status-copy > p {
+  font-size: 1rem;
+}
+.http-status-copy .button-row {
+  gap: 14px;
+}
+.http-status-help {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #586982;
+  font-size: 0.875rem;
+  margin-top: 30px;
+}
+.http-status-help a {
+  color: #0053cf;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.http-status-copy .http-status-preview {
+  margin-top: 22px;
+  font-size: 0.75rem;
+  line-height: 1.7;
+  color: #66758c;
+}
+.http-status-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px 32px;
+  margin-top: 50px;
+  padding-top: 26px;
+  border-top: 1px solid #dce4ef;
+}
+.http-status-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.875rem;
+  color: #52637b;
+}
+.http-status-links a:hover {
+  color: #005eff;
+}
+.http-status-page a:focus-visible,
+.http-status-page button:focus-visible,
+.http-status-gallery a:focus-visible {
+  outline: 2px solid #005eff;
+  outline-offset: 5px;
+}
+.http-status-gallery {
+  padding-block: 45px 70px;
+}
+.http-status-gallery > section {
+  margin-top: 36px;
+}
+.http-status-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.http-status-group h2 {
+  font-size: 1.5rem;
+}
+.http-status-group > span {
+  color: #64748b;
+}
+.http-status-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+.http-status-card > span {
+  color: #005eff;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.http-status-card h3 {
+  overflow-wrap: anywhere;
+}
+.http-status-card > p {
+  margin-bottom: 15px;
+}
+.http-status-document {
+  margin: 0;
+  background: white;
+  color: #172033;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.http-status-document * {
+  box-sizing: border-box;
+}
+.http-status-document .container {
+  width: min(1180px, calc(100% - 40px));
+  margin-inline: auto;
+}
+.http-status-brand {
+  display: block;
+  padding: 24px;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #005eff;
+  text-decoration: none;
+}
+.http-status-document .page-kicker {
+  font-size: 0.8125rem;
+  color: #52637b;
+}
+.http-status-document h1 {
+  line-height: 1.15;
+  margin: 20px 0;
+}
+.http-status-document p {
+  line-height: 1.8;
+  color: #52637b;
+}
+.http-status-document .button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 24px;
+}
+.http-status-document .primary,
+.http-status-document .outline-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 46px;
+  padding: 12px 18px;
+  border-radius: 8px;
+  font: inherit;
+  font-size: 0.875rem;
+  text-decoration: none;
+  border: 1px solid #dce4ef;
+  cursor: pointer;
+}
+.http-status-document .primary {
+  color: white;
+  background: #005eff;
+  border-color: #005eff;
+}
+.http-status-document .outline-button {
+  color: #172033;
+  background: white;
+}
+@media (max-width: 900px) {
+  .http-status-panel {
+    gap: 32px;
+  }
+  .http-status-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 650px) {
+  .http-status-page {
+    padding-block: 32px;
+  }
+  .http-status-panel {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .http-status-art {
+    min-height: 240px;
+    border-radius: 22px;
+  }
+  .http-status-code {
+    font-size: 7rem;
+  }
+  .http-status-orbit {
+    width: 210px;
+    height: 210px;
+  }
+  .http-status-icon {
+    width: 54px;
+    height: 54px;
+    right: 24px;
+    bottom: 24px;
+    border-radius: 15px;
+  }
+  .http-status-icon svg {
+    width: 28px;
+  }
+  .http-status-copy .button-row {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .http-status-links {
+    gap: 22px;
+    margin-top: 32px;
+  }
+  .http-status-grid {
+    grid-template-columns: 1fr;
+  }
+}

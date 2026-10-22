@@ -1,0 +1,73 @@
+{
+  "nativeSelectSites": 29,
+  "files": [
+    {
+      "file": "app\\marketplace.tsx",
+      "selects": 2
+    },
+    {
+      "file": "components\\forms\\select-field.tsx",
+      "selects": 1
+    },
+    {
+      "file": "components\\forms\\workflow-forms.tsx",
+      "selects": 1
+    },
+    {
+      "file": "components\\home\\hero-search.tsx",
+      "selects": 2
+    },
+    {
+      "file": "components\\logistics\\freight-routes.tsx",
+      "selects": 2
+    },
+    {
+      "file": "components\\logistics\\index.tsx",
+      "selects": 1
+    },
+    {
+      "file": "components\\logistics\\landed.tsx",
+      "selects": 4
+    },
+    {
+      "file": "components\\logistics\\load.tsx",
+      "selects": 1
+    },
+    {
+      "file": "components\\logistics\\tracking.tsx",
+      "selects": 1
+    },
+    {
+      "file": "components\\pages\\catalog-page.tsx",
+      "selects": 2
+    },
+    {
+      "file": "components\\pages\\events-page.tsx",
+      "selects": 1
+    },
+    {
+      "file": "components\\pages\\pagedirectory-page.tsx",
+      "selects": 1
+    },
+    {
+      "file": "components\\pages\\sourcingrequests-page.tsx",
+      "selects": 2
+    },
+    {
+      "file": "components\\pages\\trade-page.tsx",
+      "selects": 4
+    },
+    {
+      "file": "components\\pages\\webinars-page.tsx",
+      "selects": 1
+    },
+    {
+      "file": "components\\pages\\workspace-page.tsx",
+      "selects": 1
+    },
+    {
+      "file": "hooks\\use-logistics-controller.tsx",
+      "selects": 2
+    }
+  ]
+}

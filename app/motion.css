@@ -1,0 +1,123 @@
+/* GSAP owns interpolation; these rules only define static presentation. */
+html {
+  scroll-behavior: auto;
+}
+.event-carousel .carousel-slide > a,
+.insight-carousel .carousel-slide > article,
+.freight-carousel .carousel-slide > a {
+  translate: 0 var(--card-lift, 0px);
+}
+.motion-page {
+  display: contents;
+}
+:where(
+  .site-product,
+  .product-card,
+  .editorial-card,
+  .directory-card,
+  .sector-tile,
+  .info-card,
+  .draft-card,
+  .page-type-card,
+  .supplier-card,
+  .author-card,
+  .clone-sector-card,
+  .clone-sector-all,
+  .clone-insight-grid > *,
+  .clone-home-event-grid > a,
+  .clone-rate-grid > a,
+  .workspace-stats > a,
+  .market-supplier-grid > a,
+  .request-list > article,
+  .site-map-list > a
+) {
+  translate: 0 var(--card-lift, 0px);
+}
+.clone-hero-word {
+  display: inline-block;
+}
+.motion-navigation-progress {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, #005bff, #32c7ee);
+  z-index: 1000;
+  transform-origin: left center;
+  transform: scaleX(0);
+  opacity: 0;
+  pointer-events: none;
+}
+.motion-back-top {
+  position: fixed;
+  right: 25px;
+  bottom: 84px;
+  width: 46px;
+  height: 46px;
+  border: 1px solid #d7e4f7;
+  border-radius: 50%;
+  background: #fff;
+  color: #005bff;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 6px 22px #17345614;
+  z-index: 75;
+  opacity: 0;
+  visibility: hidden;
+}
+.motion-loading {
+  padding-top: 60px;
+  min-height: 65vh;
+}
+.motion-loading-title {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.motion-loading-title h1 {
+  font-size: clamp(22px, 3vw, 34px);
+  letter-spacing: -1px;
+}
+.motion-loading > p {
+  margin: 18px 0 35px;
+  color: #64738a;
+}
+.motion-loading-ring {
+  width: 26px;
+  height: 26px;
+  border: 2px solid #dbe8ff;
+  border-top-color: #005bff;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.motion-skeleton {
+  background: #eaf0f9;
+  border: 1px solid #e3ebf6;
+  border-radius: 14px;
+}
+.motion-skeleton-heading {
+  width: min(400px, 80%);
+  height: 28px;
+  margin-bottom: 25px;
+}
+.motion-loading-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+.motion-skeleton-card {
+  height: 230px;
+}
+@media (max-width: 700px) {
+  .motion-back-top {
+    right: 18px;
+    bottom: 78px;
+  }
+  .motion-loading-grid {
+    grid-template-columns: 1fr;
+  }
+  .motion-skeleton-card {
+    height: 140px;
+  }
+}

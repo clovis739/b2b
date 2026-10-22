@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-10-21T21:29:11.559Z",
+  "engine": "GSAP",
+  "passed": [
+    "service arrows and counter",
+    "event arrows and boundaries",
+    "keyboard Home/End",
+    "insight navigation",
+    "responsive visible slides",
+    "touch swipe",
+    "no mobile overflow",
+    "freight rotation and pause",
+    "no browser errors"
+  ]
+}
